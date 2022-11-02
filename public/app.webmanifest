@@ -1,0 +1,7 @@
+{
+  "name": "My first application",
+  "short_name": "MyApp",
+  "start_url": "/",
+  "id": "aarol/remind"
+
+}
