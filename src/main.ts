@@ -5,4 +5,8 @@ const app = new App({
   target: document.getElementById('app')
 })
 
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js')
+}
+
 export default app

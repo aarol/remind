@@ -1,7 +1,22 @@
 {
   "name": "My first application",
+  "display": "minimal-ui",
   "short_name": "MyApp",
   "start_url": "/",
-  "id": "aarol/remind"
-
+  "id": "aarol/remind",
+  "icons": [
+    {
+      "src": "Icon.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    }
+  ],
+  "share_target": {
+    "action": "/add-reminder/",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "url": "url"
+    }
+  }
 }
